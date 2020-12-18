@@ -1,0 +1,25 @@
+<head>
+  <meta charset="utf-8"/>
+  <meta name="theme-color" content="#ffffff"/>
+  <meta name="viewport" content="width=device-width"/>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+  <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="{{ site.title }} · RSS"/>
+  <meta name="google-site-verification" content="{{ site.gg-verification }}"/>
+  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="canonical" href="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}"/>
+  {% unless page.date %}
+  <meta name="description" content="{{ site.description }}"/>
+  {% endunless %}
+  <script type="text/javascript" async src="/js/script.js"></script>
+  <script type="text/javascript" async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga-id }}"></script>
+  <script type="text/javascript">
+    // Google analytics
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "{{ site.ga-id }}");
+  </script>
+</head>

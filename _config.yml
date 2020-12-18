@@ -1,0 +1,13 @@
+title: Hoang's Blog
+url: https://hvu8a5.github.io
+description: Where I jot down what I learned during my coding career.
+permalink: /posts/:title.html
+ga-id: UA-210283847-1
+gg-verification: vIFNmrfWLVDQaozoj1Ird65TSftknNytTcomyikZHQk
+author:
+  name: Hoang Vu
+  email: hvu8a5@gmail.com
+  github: hvu8a5
+  twitter: hvu8a5
+plugins:
+  - jemoji
