@@ -1,0 +1,21 @@
+{
+  "name": "Hoang's Blog",
+  "short_name": "Hoang's Blog",
+  "start_url": "/",
+  "theme_color": "#def",
+  "background_color": "#def",
+  "orientation": "natural",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "any",
+      "src": "/img/avatar.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "512x512",
+      "src": "/img/avatar-x512.png",
+      "type": "image/png"
+    }
+  ]
+}
